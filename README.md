@@ -26,7 +26,9 @@ Step 6: In command line run:
 
     bash step6_requirements_install.sh
 
-Once everything is done installing, exit directory and deactivate virtual environment by running the following in comand line: cd
+Once everything is done installing, exit directory and deactivate virtual environment by running the following in comand line: 
+
+    cd
 
 step 7:  In command line run: 
 
