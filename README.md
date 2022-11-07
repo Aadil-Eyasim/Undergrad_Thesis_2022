@@ -4,23 +4,40 @@ This repository contains all the code and testing video for detection a custom m
 
 Bellow arre the steps you need to take to get the traffic light and stop sign detection running on a raspberry pi 4
 
-Step 1: In command line run: bash step1_requirements.sh
+Step 1: In command line run: 
+
+    bash step1_requirements.sh
 
 Step 2: Download the detection_code on the raspberry pi
 
-Step 3: In command line run: cd detection_code
+Step 3: In command line run: 
 
-Step 4: In command line run: python3 -m venv ogjdetec-env
+    cd detection_code
 
-Step 5: In command line run: source objdetec-env/bin/activate
+Step 4: In command line run: 
 
-Step 6: In command line run: bash step6_requirements_install.sh
+    python3 -m venv ogjdetec-env
+
+Step 5: In command line run: 
+
+    source objdetec-env/bin/activate
+
+Step 6: In command line run: 
+
+    bash step6_requirements_install.sh
 
 Once everything is done installing, exit directory and deactivate virtual environment by running the following in comand line: cd
 
-step 7:  In command line run: cd detection_code
+step 7:  In command line run: 
 
-step 8:  In command line run: bash object_detection_beep.sh or bash object_detection_playaudio.sh
+    cd detection_code
+
+step 8:  In command line run: 
+
+    bash object_detection_beep.sh 
+Or 
+
+    bash object_detection_playaudio.sh
 
 The object_detection_beep.sh will run the beep code while the object_detection_playaudio.sh will run the code that verbally say if it is a red light, green light or stop sign.
 
