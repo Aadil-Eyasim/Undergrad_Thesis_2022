@@ -1,4 +1,3 @@
-cd tflite1
-source tflite1-env/bin/activate
+source objdetec-env/bin/activate
 python3 TFLite_detection_playaudio.py
 
