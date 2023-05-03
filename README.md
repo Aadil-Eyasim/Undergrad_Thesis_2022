@@ -16,7 +16,7 @@ Step 3: In command line run:
 
 Step 4: In command line run: 
 
-    python3 -m venv ogjdetec-env
+    python3 -m venv objdetec-env
 
 Step 5: In command line run: 
 
